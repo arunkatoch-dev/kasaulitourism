@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Mulish:wght@400;600&display=swap&family=Poppins&display=swap&family=Work+Sans&display=swap&family=Dancing+Script&display=swap");
+:root {
+  --footer-Heading-Font: "Dancing Script", cursive;
+  --footer-Content-Font: "Poppins", sans-serif;
+  --footer-Background: #25a186;
+  --floating-Heading-Background: #ebb670;
+  --footer-Heading: rgb(102, 102, 102);
+  --footer-Content-Color: rgb(213, 213, 213);
+  --footer-heading4: #ffd296;
+}
+
+footer {
+  width: 100%;
+  background: var(--footer-Background);
+  position: relative;
+}
+
+footer .footer-Heading {
+  position: absolute;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0.5rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(76, 76, 76);
+  border-radius: 1rem;
+  top: -3rem;
+  left: 35%;
+  background: var(--floating-Heading-Background);
+}
+
+footer .footer-Heading h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--footer-Heading);
+  text-transform: capitalize;
+  font-family: var(--footer-Heading-Font);
+}
+
+footer .footer-container {
+  width: 100%;
+  margin: 8rem 0;
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-container .footer-content {
+  width: 30%;
+}
+footer .footer-container .footer-content ul {
+  display: flex;
+  padding: 0 0 0 10rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer .footer-container .footer-content ul li {
+  list-style: inside;
+  color: var(--footer-Content-Color);
+}
+footer .footer-container .footer-content ul li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-family: var(--footer-Content-Font);
+  color: var(--footer-Content-Color);
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+footer .footer-container .footer-content ul li a:hover {
+  text-decoration: underline;
+  color: rgb(150, 150, 150);
+}
+
+footer .footer-nav {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-nav ul {
+  display: flex;
+  gap: 3rem;
+  border-bottom: 0.1rem solid rgb(207, 207, 207);
+  border-radius: 0.2rem;
+  padding: 1rem 15rem;
+}
+footer .footer-nav li {
+  list-style-type: none;
+}
+
+footer .footer-nav li a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+}
+footer .footer-nav li a:hover {
+  cursor: pointer;
+}
+footer .footer-nav li a .nav-Icons:hover {
+  border-bottom: 0.1rem solid white;
+  transition: 0.2s linear;
+  color: rgb(207, 207, 207);
+}
+
+footer .developerDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: 0.5rem;
+}
+footer .developerDetails h4 {
+  font-size: 1.8rem;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.1rem;
+  color: var(--footer-heading4);
+}
+footer .developerDetails p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Work Sans", sans-serif;
+  color: #ffdfb5;
+}
+footer .developerDetails p span {
+  color: #ffc574;
+}
+
+@media (max-width: 500px) {
+  footer .footer-Heading {
+    width: 50%;
+    left: 30%;
+  }
+  footer .footer-container .footer-content ul {
+    padding: 0 0 0 2rem;
+  }
+}
+@media (max-width: 400px) {
+  footer .footer-container .footer-content ul li a {
+    font-size: 1.2rem;
+  }
+  footer .footer-nav li a {
+    font-size: 1.8rem;
+  }
+  footer .developerDetails h4 {
+    font-size: 1.3rem;
+  }
+  footer .developerDetails p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,101 @@
+.gallary {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 5rem;
+}
+.gallary .outer-Container {
+  width: 100%;
+  height: 95%;
+  position: relative;
+}
+.gallary .outer-Container .full-Image-Container {
+  width: 100%;
+  height: 85%;
+}
+.gallary .outer-Container .full-Image-Container img {
+  width: 100%;
+  height: 100%;
+}
+.gallary .outer-Container .left-ArrowContainer {
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 99;
+  top: 58rem;
+  left: 1%;
+}
+.gallary .outer-Container .right-ArrowContainer {
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 99;
+  top: 58rem;
+  right: 1%;
+}
+.gallary .outer-Container .left-ArrowContainer .left-Arrow,
+.gallary .outer-Container .right-ArrowContainer .right-Arrow {
+  font-size: 4rem;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(48, 47, 47));
+  color: rgb(214, 214, 214);
+}
+
+.gallary .outer-Container .left-ArrowContainer .left-Arrow:hover,
+.gallary .outer-Container .right-ArrowContainer .right-Arrow:hover {
+  color: rgb(159, 159, 159);
+  cursor: pointer;
+}
+
+.gallary .outer-Container .thumbnail-Image-Container {
+  max-width: 100vw;
+  display: flex;
+  height: 15%;
+  overflow-x: scroll !important;
+  white-space: nowrap;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(120, 120, 120);
+  -webkit-overflow-scrolling: touch;
+  -moz-user-select: none; /* firefox */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE*/
+  user-select: none; /* Standard syntax */
+}
+
+.gallary .outer-Container .thumbnail-Image-Container img {
+  width: 25rem;
+  height: 100%;
+  filter: invert(10%);
+}
+.gallary .outer-Container .thumbnail-Image-Container img:hover {
+  filter: opacity(70%);
+}
+
+/* Scrollbar customization  */
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(163, 163, 163);
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(176, 176, 176);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8f8f8f;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .gallary .outer-Container .left-ArrowContainer {
+    display: none;
+  }
+  .gallary .outer-Container .right-ArrowContainer {
+    display: none;
+  }
+}

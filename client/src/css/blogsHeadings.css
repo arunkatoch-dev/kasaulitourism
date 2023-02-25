@@ -1,0 +1,40 @@
+.blogs-Headings-Container {
+  width: 100%;
+  display: flex;
+  height: 10rem;
+  margin: 0.5rem 0;
+  box-shadow: .1rem .1rem 1rem rgb(161, 161, 161);
+}
+.blogs-Headings-Container .small-Thumbnail {
+  width: 25%;
+  height: 100%;
+}
+.blogs-Headings-Container .small-Thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+.blogs-Headings-Container .blogs-Heading {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.blogs-Headings-Container .blogs-Heading .blog-link {
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 0;
+  color: #fe9a9a;
+}
+.blogs-Headings-Container .blogs-Heading .blog-link:hover {
+  color: #ffafaf;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.blogs-Headings-Container .blogs-Heading p {
+  font-size: 1.5rem;
+  color: rgb(112, 112, 112);
+}

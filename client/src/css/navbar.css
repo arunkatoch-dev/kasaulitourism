@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+:root {
+  --nav-background: #25a186;
+  --nav-Div-Background: #f1dbbf;
+  --skin-Color: #cfb997;
+  --blue: #567189;
+  --light-Green: #658864;
+  --nav-heading: #ffffff;
+  --light-Black: #3d3d3d;
+  --dark-Blue: #043b70;
+  --nav-heading-font: "Dancing Script", cursive;
+  --box-Shadow: 0.1rem 0.1rem 1rem rgb(75, 75, 75);
+}
+
+nav {
+  width: 100%;
+  background: var(--nav-background);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+nav .site-heading {
+  display: flex;
+  align-items: center;
+}
+nav .site-heading h1 {
+  color: var(--nav-heading);
+  padding: 0 1rem;
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+  font-family: var(--nav-heading-font);
+}
+nav .logo,
+nav .menu-btn {
+  width: 3.5rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.nav-Div {
+  position: absolute;
+  right: 0;
+  top: 4.5rem;
+  width: 20vw;
+  z-index: 555;
+  background-color: var(--nav-Div-Background);
+  box-shadow: var(--box-Shadow);
+}
+.nav-Div .registration-Container {
+  width: 100%;
+  border-bottom: 0.3rem solid var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+.nav-Div .registration-Container .registration-Links {
+  font-size: 2rem;
+  color: var(--blue);
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+.nav-Div .registration-Container .registration-Links:hover {
+  color: var(--light-Green);
+  text-decoration: underline;
+  transition: 0.2s linear;
+}
+.nav-Div .registration-Container span {
+  font-size: 1.5rem;
+  color: var(--light-Green);
+}
+.nav-Div .registration-Container .user-Icon {
+  font-size: 5rem;
+  color: var(--light-Green);
+}
+.nav-Div ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.nav-Div ul li {
+  list-style-type: none;
+  padding: 1rem 0;
+}
+
+.nav-Div ul li .nav-Links {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 1rem 0;
+}
+.nav-Div ul li .nav-Links:hover {
+  transition: 0.2s ease-in;
+  color: var(--light-Green);
+  border-bottom: 0.1rem solid var(--light-Green);
+}
+
+.hide-Nav-Div {
+  position: absolute;
+  right: -50%;
+  z-index: -999;
+}
+
+.nav-Div .social-Links-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+  width: 100%;
+  padding: 1rem 0;
+  gap: 1.5rem;
+  background: var(--skin-Color);
+}
+
+.nav-Div .social-Links-Container .social-Links {
+  text-decoration: none;
+}
+.nav-Div .social-Links-Container .social-Links .social-Icon {
+  font-size: 2rem;
+  color: var(--light-Black);
+}
+.nav-Div .social-Links-Container .social-Links .social-Icon:hover {
+  color: var(--dark-Blue);
+}
+
+@media (max-width: 1150px) {
+  .nav-Div {
+    width: 25vw;
+   
+  }
+}
+@media (max-width: 850px) {
+  .nav-Div {
+    width: 35vw;
+   
+  }
+}
+@media (max-width: 450px) {
+  .nav-Div {
+    width: 60vw;
+   
+  }
+}

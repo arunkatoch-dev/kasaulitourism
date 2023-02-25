@@ -1,0 +1,42 @@
+/* --------------------------Details Div---------------------- */
+
+.show-Details,
+.hide-Details {
+  position: fixed;
+  top: 2%;
+  width: 95vw;
+  left: 2.5%;
+  height: 95vh;
+  border-radius: 1rem;
+  z-index: 888;
+  background-color: #dfdfdf;
+  box-shadow: 0.3rem 0.3rem 3rem 3rem rgba(57, 57, 57, 0.863);
+  transition: 0.2s linear;
+  overflow-y: auto;
+}
+
+.hide-Details {
+  top: -100%;
+  transition: 0.2s linear;
+}
+
+.show-Details .details-Section {
+  width: 100%;
+  position: relative;
+  background-color: #dfdfdf;
+}
+
+.closeBtn {
+  width: 3.5rem;
+  position: absolute;
+  right: 1%;
+  top: 0.5%;
+  filter: invert(90%);
+  z-index: 50;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+  filter: invert(50%)
+}
+

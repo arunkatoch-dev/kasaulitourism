@@ -1,0 +1,98 @@
+:root {
+  --card-Container-Background: #f0f2f5;
+  --card-Background: #ffffff;
+  --card-Heading: #ebb670;
+  --card-Para: #a58861;
+}
+.section-Four .cards-Outer-Container .cards-Container {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+  padding: 5rem 0;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: var(--card-Container-Background);
+  margin-top: 1rem;
+  top: 0;
+}
+.section-Four .cards-Outer-Container .cards-Container .card .cards-Link {
+  text-decoration: none;
+}
+.section-Four .cards-Outer-Container .cards-Container .card {
+  width: 22%;
+  height: 33rem;
+  background-color: var(--card-Background);
+  box-shadow: 0.1rem 0.1rem 1rem rgb(94, 93, 93);
+  margin-top: 1rem;
+  border-radius: 2rem;
+  transition: transform 0.2s;
+}
+.section-Four .cards-Outer-Container .cards-Container .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0.1rem 0.1rem 1rem rgb(61, 61, 61);
+}
+.section-Four .cards-Outer-Container .cards-Container .card .image-Container {
+  width: 100%;
+  height: 60%;
+  border-radius: 2rem;
+}
+
+.section-Four
+  .cards-Outer-Container
+  .cards-Container
+  .card
+  .image-Container
+  img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.section-Four
+  .cards-Outer-Container
+  .cards-Container
+  .card
+  .place-Details-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.5rem;
+  height: 40%;
+}
+
+.section-Four
+  .cards-Outer-Container
+  .cards-Container
+  .card
+  .place-Details-Container
+  h3 {
+  font-size: 2rem;
+  color: var(--card-Heading);
+  padding-top: 1rem;
+  letter-spacing: 0.1rem;
+}
+.section-Four
+  .cards-Outer-Container
+  .cards-Container
+  .card
+  .place-Details-Container
+  p {
+  font-size: 1.6rem;
+  color: var(--card-Para);
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 650px) {
+  .section-Four .cards-Outer-Container .cards-Container {
+    gap: 5%;
+    flex-direction: column;
+  }
+  .section-Four .cards-Outer-Container .cards-Container .card {
+    width: 70%;
+    margin: 2rem 0;
+  }
+}

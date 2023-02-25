@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Mulish:wght@400;600&display=swap&family=Poppins&display=swap&family=Work+Sans&display=swap&family=Dancing+Script&display=swap");
+
+:root {
+  --Mainfont: "Montserrat", sans-serif;
+  --Secondaryfont: "Mulish", sans-serif;
+  --Content-Color: #a0616a;
+}
+.contact-Us-Page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-Us-Page .thumbnail {
+  width: 40%;
+  height: 100%;
+  padding: 0 0 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-Us-Page .thumbnail img {
+  width: 100%;
+}
+
+.contact-Us-Page .contact-Us-Container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+.contact-Us-Page .contact-Us-Container .contact-Main-Heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  /* border: 0.1rem solid pink; */
+  padding: 3rem 0;
+}
+.contact-Us-Page .contact-Us-Container .contact-Main-Heading h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  font-family: var(--Mainfont);
+  font-weight: bold;
+  color: #2f2e41;
+  padding: 0 9rem 0 0;
+}
+
+.contact-Us-Page .contact-Us-Container .contact-Content {
+  width: 80%;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(119, 119, 119);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 78%;
+  border-radius: 1rem;
+  margin: 0 12rem;
+  overflow-y: auto;
+  line-height: 1.9;
+}
+
+.contact-Us-Page .contact-Us-Container .contact-Content p {
+  font-size: 1.9rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+  font-family: var(--Secondaryfont);
+  color: var(--Content-Color);
+}
+.contact-Us-Page .contact-Us-Container .contact-Content span {
+  font-size: 1.8rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+  font-family: var(--Secondaryfont);
+  color: var(--Content-Color);
+}
+
+.contact-Us-Page
+  .contact-Us-Container
+  .contact-Content
+  .social-Links-Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 5rem 0;
+}
+.contact-Us-Page
+  .contact-Us-Container
+  .contact-Content
+  .social-Links-Container
+  .social-Links {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #2f2e41;
+}
+.contact-Us-Page
+  .contact-Us-Container
+  .contact-Content
+  .social-Links-Container
+  .social-Links:hover {
+  color: #1d1957;
+  text-decoration: underline;
+  transition: 0.2s linear;
+}
+
+@media (max-width: 875px) {
+  .contact-Us-Page .thumbnail {
+    width: 30%;
+    padding: 0 0 0 0.5rem;
+  }
+
+  .contact-Us-Page .about-Us-Container {
+    width: 70%;
+  }
+}
+@media (max-width: 650px) {
+  .contact-Us-Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .contact-Us-Page .thumbnail {
+    width: 100%;
+    padding: 1rem;
+    height: 30%;
+  }
+  .contact-Us-Page .thumbnail img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-Us-Page .contact-Us-Container {
+    width: 98%;
+    height: 70%;
+  }
+  .contact-Us-Page .contact-Us-Container .contact-Content {
+    width: 98%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-Us-Page .contact-Us-Container .contact-Content {
+    overflow-y: hidden;
+  }
+  .contact-Us-Page
+    .contact-Us-Container
+    .contact-Content
+    .social-Links-Container {
+    gap: 1rem;
+    margin: 5rem 0;
+  }
+  .contact-Us-Page
+    .contact-Us-Container
+    .contact-Content
+    .social-Links-Container
+    .social-Links {
+    font-size: 1.2rem;
+  }
+}

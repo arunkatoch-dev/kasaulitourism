@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Mulish:wght@400;600&display=swap");
+
+:root {
+  --Secondary-Green: #e3fee3;
+  --Heading: #838490;
+  --Black: rgb(0, 0, 0);
+  --Mainfont: "Montserrat", sans-serif;
+  --Secondaryfont: "Mulish", sans-serif;
+}
+
+.kasauli-Introduction {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Secondary-Green);
+}
+
+.kasauli-Introduction .content-Container {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.kasauli-Introduction .content-Container .content {
+  width: 70%;
+  flex-direction: column;
+  padding: 0 3rem;
+}
+
+.kasauli-Introduction .content-Container .content h1 {
+  font-size: 3rem;
+  font-family: var(--Mainfont);
+  letter-spacing: 0.2rem;
+  padding: 1rem 0;
+  color: var(--Heading);
+}
+.kasauli-Introduction .content-Container .content-image {
+  width: 30%;
+  padding: 2rem;
+}
+.kasauli-Introduction .content-Container .content-image img {
+  width: 100%;
+  height: 25rem;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(100, 100, 100));
+  border-radius: 1.5rem;
+}
+
+.kasauli-Introduction .content-Container .content p {
+  font-size: 2rem;
+  font-family: var(--Secondaryfont);
+  letter-spacing: 0.2rem;
+  color: var(--Place-Color);
+}
+
+@media (max-width: 850px) {
+
+  .kasauli-Introduction .content-Container .content {
+    width: 60%;
+    padding: 0 2rem;
+  }
+  .kasauli-Introduction .content-Container .content-image {
+    width: 40%;
+  }
+}
+@media (max-width: 585px) {
+  .kasauli-Introduction .content-Container .content h1 {
+    font-size: 2.5rem;
+  }
+  .kasauli-Introduction .content-Container .content p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 450px) {
+  .kasauli-Introduction .content-Container {
+    gap: 2.5rem;
+  }
+  .kasauli-Introduction .content-Container .content h1 {
+    font-size: 2rem;
+  }
+  .kasauli-Introduction .content-Container .content p {
+    font-size: 1.2rem;
+  }
+  .kasauli-Introduction .content-Container .content {
+    width: 50%;
+    padding: 0;
+  }
+  .kasauli-Introduction .content-Container .content-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+}
+

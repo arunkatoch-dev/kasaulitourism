@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+:root {
+  --greenish: #25a186;
+  --greenish-Hover: #0a876c;
+  --background-Color: #f0f2f5;
+  --light-Black: #3d3d3d;
+  --white: #ffffff;
+  --box-Shadow: 0.1rem 0.1rem 1rem rgb(75, 75, 75);
+  --skin: #ffd7a2;
+  --skin-Hover: #fac37b;
+}
+.login-Page,
+.signup-Page {
+  width: 100vw;
+  height: 93vh;
+  position: relative;
+  background: var(--background-Color);
+  display: flex;
+}
+.login-Page .login-page-content,
+.signup-Page .signup-page-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 10rem;
+  justify-content: center;
+  width: 50%;
+  gap: 1rem;
+}
+.login-Page .login-page-content h1,
+.signup-Page .signup-page-content h1 {
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+  color: var(--greenish);
+  font-family: "Poppins", sans-serif;
+}
+.login-Page .login-page-content p,
+.signup-Page .signup-page-content p {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-family: "Work Sans", sans-serif;
+  color: var(--light-Black);
+}
+.login-Page .login-page-inputs-container,
+.signup-Page .signup-page-inputs-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-Page .login-page-inputs-container form,
+.signup-Page .signup-page-inputs-container form {
+  display: flex;
+  background: var(--white);
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-Shadow);
+}
+.login-Page .login-page-inputs-container form input,
+.signup-Page .signup-page-inputs-container form input {
+  width: 32rem;
+  padding: 1.4rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  outline-color: var(--greenish);
+  border: 0.1rem solid #a2a2a2;
+}
+.signup-Page .signup-page-inputs-container form input {
+  width: 45rem;
+}
+.login-Page .login-page-inputs-container form .login-btn,
+.signup-Page .signup-page-inputs-container form .submit-btn {
+  background: var(--greenish);
+  border: none;
+  color: var(--white);
+  border-radius: 0.5rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.login-Page .login-page-inputs-container form .login-btn:hover,
+.signup-Page .signup-page-inputs-container form .submit-btn:hover {
+  background: var(--greenish-Hover);
+  transition: 0.2s linear;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(143, 142, 142);
+}
+.login-Page .login-page-inputs-container form .forgot-Password,
+.signup-Page .signup-page-inputs-container form .already-registered {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  display: inline-block;
+  text-align: center;
+  color: var(--greenish-Hover);
+  border-bottom: 0.1rem solid#a2a2a2;
+}
+.login-Page .login-page-inputs-container form .forgot-Password:hover {
+  color: var(--greenish);
+  transition: 0.2s linear;
+}
+
+.login-Page .login-page-inputs-container form .register-Now-Btn,
+.signup-Page .signup-page-inputs-container form .login-Now-Btn {
+  margin: 2rem auto;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1.2rem 5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  background: var(--skin);
+  color: var(--light-Black);
+  letter-spacing: 0.1rem;
+}
+.login-Page .login-page-inputs-container form .register-Now-Btn:hover,
+.signup-Page .signup-page-inputs-container form .login-Now-Btn:hover {
+  background: var(--skin-Hover);
+  transition: 0.2s linear;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(143, 142, 142);
+}
+
+@media (max-width: 775px) {
+  .login-Page .login-page-content {
+    padding: 0 0 0 1rem;
+  }
+  .login-Page .login-page-content h1 {
+    font-size: 3rem;
+  }
+  .login-Page .login-page-content p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .login-Page,
+  .signup-Page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+}
+@media (max-width: 750px) {
+
+  .login-Page .login-page-content,
+  .signup-Page .signup-page-content {
+    display: none;
+  }
+  .login-Page .login-page-inputs-container,
+  .signup-Page .signup-page-inputs-container {
+    width: 100%;
+  }
+  .login-Page .login-page-inputs-container form input,
+  .signup-Page .signup-page-inputs-container form input {
+    width: 45rem;
+  }
+}
+@media (max-width: 450px) {
+  .login-Page .login-page-inputs-container form input,
+  .signup-Page .signup-page-inputs-container form input {
+    width: 35rem;
+  }
+}
+@media (max-width: 350px) {
+  .login-Page .login-page-inputs-container form input,
+  .signup-Page .signup-page-inputs-container form input {
+    width: 30rem;
+  }
+}
