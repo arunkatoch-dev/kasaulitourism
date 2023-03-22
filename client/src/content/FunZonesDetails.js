@@ -1,4 +1,4 @@
-import NazaraPool from "../images/NazaraPool.PNG";
+import NazaraPool from "../images/NazaraPool.webp";
 const FunZonesDetails = [
   {
     placeName: "Nazara Pool",

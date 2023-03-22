@@ -45,7 +45,6 @@ const Login = () => {
 
 
   return (
-    <>
     <section className="login-Page">
       <div className="login-page-content">
         <h1>Kasauli Tourism</h1>
@@ -89,7 +88,6 @@ const Login = () => {
         <Alert msg="Login successfully" />
       ) : null}
     </section>
-    </>
   );
 };
 

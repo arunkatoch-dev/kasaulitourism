@@ -1,8 +1,8 @@
-import SmallChurch from "../images/SmallChurch.PNG";
-import Barog from "../images/Barog.PNG";
-import train from "../images/train.png";
-import KarolHill from "../images/KarolHill.PNG";
-import CRI from "../images/CRI.PNG";
+import SmallChurch from "../images/SmallChurch.webp";
+import Barog from "../images/Barog.webp";
+import train from "../images/train.webp";
+import KarolHill from "../images/KarolHill.webp";
+import CRI from "../images/CRI.webp";
 
 const Blogs = [
   {

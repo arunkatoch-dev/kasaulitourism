@@ -1,10 +1,10 @@
-import HeritageMarket from "../images/HeritageMarket.PNG";
-import MeditationPoint from "../images/MeditationPoint.PNG";
-import SmallChurch from "../images/SmallChurch.PNG";
-import SunsetPoint from "../images/SunsetPoint.PNG";
-import GilbertTrail from "../images/GilbertTrail.PNG";
-import MonkeyPoint from "../images/MonkeyPoint.PNG";
-import SunrisePoint from "../images/SunrisePoint.PNG";
+import HeritageMarket from "../images/HeritageMarket.webp";
+import MeditationPoint from "../images/MeditationPoint.webp";
+import SmallChurch from "../images/SmallChurch.webp";
+import SunsetPoint from "../images/SunsetPoint.webp";
+import GilbertTrail from "../images/GilbertTrail.webp";
+import MonkeyPoint from "../images/MonkeyPoint.webp";
+import SunrisePoint from "../images/SunrisePoint.webp";
 const PlacesDetails = [
   {
     placeName: "Heritage Market",

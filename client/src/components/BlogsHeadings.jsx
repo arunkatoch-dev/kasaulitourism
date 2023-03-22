@@ -11,7 +11,7 @@ const BlogsHeadings = ({ clickHandler }) => {
         return (
           <div className="blogs-Headings-Container" key={index}>
             <div className="small-Thumbnail">
-              <img src={content.img} alt="thumbnail" />
+              <img src={content.img} alt="thumbnail" loading="lazy" />
             </div>
             <div className="blogs-Heading">
               <h2

@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import Cookie from "js-cookie";
 import Logout from "./Logout";
 import { BiUserCircle } from "react-icons/bi";
 import { BsFacebook, BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 import { NavLink, Link } from "react-router-dom";
-import menu from "../images/menu.png";
+import menu from "../images/menu.webp";
 import "../css/navbar.css";
 
 const NavDiv = ({ showHideNav, setShowHideNav, setMenuBtn }) => {
   const cookieName = Cookie.get("login");
-   console.log(cookieName)
-
   const clickHandler = () => {
     setShowHideNav("hide-Nav-Div");
     setMenuBtn(menu);
@@ -18,7 +16,7 @@ const NavDiv = ({ showHideNav, setShowHideNav, setMenuBtn }) => {
   return (
     <>
       <div className={showHideNav}>
-        {cookieName != "sucessfully" ? (
+        {cookieName !== "sucessfully" ? (
           <div className="registration-Container">
             <Link
               className="registration-Links"
@@ -38,7 +36,7 @@ const NavDiv = ({ showHideNav, setShowHideNav, setMenuBtn }) => {
             <BiUserCircle className="user-Icon" />
           </div>
         ) : (
-          <Logout  setShowHideNav={setShowHideNav} setMenuBtn={setMenuBtn}/>
+          <Logout setShowHideNav={setShowHideNav} setMenuBtn={setMenuBtn} />
         )}
         {/* ------------------------------------------------------------------ */}
         <ul>

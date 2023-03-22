@@ -1,6 +1,6 @@
-import Deothal from "../images/Deothal.PNG";
-import Hidimba from "../images/Hidimba.PNG";
-import Sadhupul from "../images/Sadhupul.PNG";
+import Deothal from "../images/Deothal.webp";
+import Hidimba from "../images/Hidimba.webp";
+import Sadhupul from "../images/Sadhupul.webp";
 const Card3 = [
   {
     img: Deothal,

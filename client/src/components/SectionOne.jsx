@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import LookingFor from "./LookingFor";
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";
-import Image1 from "../images/kasauli_night.jpg";
-import Image2 from "../images/kasauli-church-inside.jpg";
-import Image3 from "../images/church.png";
-import Image4 from "../images/flowers.png";
-import Image5 from "../images/kasauli-weather.jpg";
-import namaste from "../images/namaste.png";
+import Image1 from "../images/kasauli-weather.webp";
+import Image2 from "../images/kasauli-church-inside.webp";
+import Image3 from "../images/church.webp";
+import Image4 from "../images/flowers.webp";
+import Image5 from "../images/kasauli_night.webp";
+import namaste from "../images/namaste.webp";
 import "../css/sectionOne.css";
 
 const SectionOne = () => {

@@ -1,8 +1,8 @@
-import CafeMantra from "../images/CafeMantra.PNG";
-import CafeRudra from "../images/CafeRudra.PNG";
-import CafeShubhmita from "../images/CafeShubhmita.PNG";
-import OldTown from "../images/OldTown.PNG";
-import Wangyal from "../images/Wangyal.PNG";
+import CafeMantra from "../images/CafeMantra.webp";
+import CafeRudra from "../images/CafeRudra.webp";
+import CafeShubhmita from "../images/CafeShubhmita.webp";
+import OldTown from "../images/OldTown.webp";
+import Wangyal from "../images/Wangyal.webp";
 const FoodCornersDetails = [
   {
     placeName: "Cafe Shubhmita",

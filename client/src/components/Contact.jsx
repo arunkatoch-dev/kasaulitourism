@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section className="contact-Us-Page">
       <div className="thumbnail">
-        <img src={ContactUsThumbnail} alt="contact-thumbnail" />
+        <img src={ContactUsThumbnail} alt="contact-thumbnail"  loading="lazy" />
       </div>
       <div className="contact-Us-Container">
         <div className="contact-Main-Heading">

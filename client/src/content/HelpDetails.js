@@ -1,9 +1,9 @@
-import Ambulance from "../images/Ambulance.png";
-import CyberSecurity from "../images/CyberSecurity.jpg";
-import ChildHelpline from "../images/ChildHelpline.jpg";
-import DisasterManagement from "../images/DisasterManagement.jpg";
-import Emergency from "../images/Emergency.jpg";
-import WomenHelpline from "../images/WomenHelpline.jpg";
+import Ambulance from "../images/Ambulance.webp";
+import CyberSecurity from "../images/CyberSecurity.webp";
+import ChildHelpline from "../images/ChildHelpline.webp";
+import DisasterManagement from "../images/DisasterManagement.webp";
+import Emergency from "../images/Emergency.webp";
+import WomenHelpline from "../images/WomenHelpline.webp";
 
 const HelpDetails = [
   {

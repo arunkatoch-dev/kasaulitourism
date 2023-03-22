@@ -1,8 +1,8 @@
 import React from "react";
-import flowers from "../images/flowers.png";
-import train from "../images/train.png";
-import church from "../images/church.png";
-import cloudyWeather from "../images/weather.png";
+import flowers from "../images/flowers.webp";
+import train from "../images/train.webp";
+import church from "../images/church.webp";
+import cloudyWeather from "../images/weather.webp";
 import "../css/sectionTwo.css";
 const SectionTwo = () => {
   return (
@@ -21,13 +21,13 @@ const SectionTwo = () => {
           </p>
         </div>
         <div className="content-image">
-          <img src={church} alt="kasauli" />
+          <img src={church} alt="kasauli" loading="lazy" />
         </div>
       </div>
 
       <div className="content-Container">
         <div className="content-image">
-          <img src={cloudyWeather} alt="kasaluli" />
+          <img src={cloudyWeather} alt="kasaluli" loading="lazy" />
         </div>
         <div className="content">
           <h1
@@ -66,13 +66,13 @@ const SectionTwo = () => {
           </p>
         </div>
         <div className="content-image">
-          <img src={train} alt="kasaluli" />
+          <img src={train} alt="kasaluli" loading="lazy" />
         </div>
       </div>
 
       <div className="content-Container">
         <div className="content-image">
-          <img src={flowers} alt="kasaluli" />
+          <img src={flowers} alt="kasaluli" loading="lazy" />
         </div>
         <div className="content">
           <h1

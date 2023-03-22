@@ -1,8 +1,8 @@
-import MonkeyPoint from "../images/MonkeyPoint.PNG";
-import BabaBalakNath from "../images/BabaBalakNath.PNG";
-import GurudwaraGarkhal from "../images/GurudwaraGarkhal.PNG";
-import ShirdiSaiBaba from "../images/ShirdiSaiBaba.PNG";
-import NahariTemple from "../images/NahariTemple.PNG";
+import MonkeyPoint from "../images/MonkeyPoint.webp";
+import BabaBalakNath from "../images/BabaBalakNath.webp";
+import GurudwaraGarkhal from "../images/GurudwaraGarkhal.webp";
+import ShirdiSaiBaba from "../images/ShirdiSaiBaba.webp";
+import NahariTemple from "../images/NahariTemple.webp";
 const TemplesDetails = [
   {
     placeName: "Hanuman Temple (Monkey Point Kasauli)",

@@ -21,7 +21,11 @@ const Gallary = () => {
     <section className="gallary">
       <div className="outer-Container">
         <div className="full-Image-Container">
-          <img src={GallaryImages[imageIndex].image} alt="full-image" />
+          <img
+            src={GallaryImages[imageIndex].image}
+            alt="full-size-gallary-item"
+            loading="lazy"
+          />
         </div>
         <div className="left-ArrowContainer">
           <AiOutlineLeft className="left-Arrow" onClick={leftScrollHandler} />
@@ -33,6 +37,7 @@ const Gallary = () => {
                 src={element.image}
                 alt="gallary-Images"
                 id="thumbnailImage"
+                loading="lazy"
                 onClick={() => {
                   imageClickHandler(index);
                 }}

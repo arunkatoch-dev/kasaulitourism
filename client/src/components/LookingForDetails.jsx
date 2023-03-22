@@ -1,56 +1,56 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import HeritageMarket from "../images/HeritageMarket.PNG";
-import MeditationPoint from "../images/MeditationPoint.PNG";
-import SmallChurch from "../images/SmallChurch.PNG";
-import SunsetPoint from "../images/SunsetPoint.PNG";
-import GilbertTrail from "../images/GilbertTrail.PNG";
-import MonkeyPoint from "../images/MonkeyPoint.PNG";
-import SunrisePoint from "../images/SunrisePoint.PNG";
-import Alasia from "../images/Alasia.PNG";
-import Baikunth from "../images/Baikunth.jpg";
-import KasauliResort from "../images/KasauliResort.png";
-import KasauliHillsResort from "../images/KasauliHillsResort.png";
-import Rosetum from "../images/Rosetum.PNG";
-import RosCommon from "../images/RosCommon.PNG";
-import Ramada from "../images/Ramada.PNG";
-import RMaiden from "../images/RMaiden.PNG";
-import WoodCreek from "../images/WoodCreek.PNG";
-import Winnies from "../images/Winnies.PNG";
-import TheChabbal from "../images/TheChabbal.PNG";
-import KasauliWindsorResort from "../images/KasauliWindsorResort.PNG";
-import KasauliResidency from "../images/KasauliResidency.PNG";
-import KasauliParaiso from "../images/KasauliParaiso.PNG";
-import KasauliExotica from "../images/KasauliExotica.PNG";
-import HotelWhisperingWinds from "../images/HotelWhisperingWinds.PNG";
-import HomesteadVillas from "../images/HomesteadVillas.PNG";
-import ForestVille from "../images/ForestVille.PNG";
-import Daleside from "../images/Daleside.PNG";
-import BirdsView from "../images/BirdsView.PNG";
-import AshwiniKhad from "../images/AshwiniKhad.PNG";
-import AshwiniKhadWaterfall from "../images/AshwiniKhadWaterfall.PNG";
-import CRI from "../images/CRI.PNG";
-import KarolHill from "../images/KarolHill.PNG";
-import MohanMeakin from "../images/MohanMeakin.PNG";
-import NazaraPool from "../images/NazaraPool.PNG";
-import TimerTrail from "../images/TimerTrail.PNG";
-import VikasMushroomFarm from "../images/VikasMushroomFarm.PNG";
-import ShivDhank from "../images/ShivDhank.png";
-import CafeMantra from "../images/CafeMantra.PNG";
-import CafeRudra from "../images/CafeRudra.PNG";
-import CafeShubhmita from "../images/CafeShubhmita.PNG";
-import OldTown from "../images/OldTown.PNG";
-import Wangyal from "../images/Wangyal.PNG";
-import BabaBalakNath from "../images/BabaBalakNath.PNG";
-import GurudwaraGarkhal from "../images/GurudwaraGarkhal.PNG";
-import ShirdiSaiBaba from "../images/ShirdiSaiBaba.PNG";
-import NahariTemple from "../images/NahariTemple.PNG";
-import Ambulance from "../images/Ambulance.png";
-import CyberSecurity from "../images/CyberSecurity.jpg";
-import ChildHelpline from "../images/ChildHelpline.jpg";
-import DisasterManagement from "../images/DisasterManagement.jpg";
-import Emergency from "../images/Emergency.jpg";
-import WomenHelpline from "../images/WomenHelpline.jpg";
+import HeritageMarket from "../images/HeritageMarket.webp";
+import MeditationPoint from "../images/MeditationPoint.webp";
+import SmallChurch from "../images/SmallChurch.webp";
+import SunsetPoint from "../images/SunsetPoint.webp";
+import GilbertTrail from "../images/GilbertTrail.webp";
+import MonkeyPoint from "../images/MonkeyPoint.webp";
+import SunrisePoint from "../images/SunrisePoint.webp";
+import Alasia from "../images/Alasia.webp";
+import Baikunth from "../images/Baikunth.webp";
+import KasauliResort from "../images/KasauliResort.webp";
+import KasauliHillsResort from "../images/KasauliHillsResort.webp";
+import Rosetum from "../images/Rosetum.webp";
+import RosCommon from "../images/RosCommon.webp";
+import Ramada from "../images/Ramada.webp";
+import RMaiden from "../images/RMaiden.webp";
+import WoodCreek from "../images/WoodCreek.webp";
+import Winnies from "../images/Winnies.webp";
+import TheChabbal from "../images/TheChabbal.webp";
+import KasauliWindsorResort from "../images/KasauliWindsorResort.webp";
+import KasauliResidency from "../images/KasauliResidency.webp";
+import KasauliParaiso from "../images/KasauliParaiso.webp";
+import KasauliExotica from "../images/KasauliExotica.webp";
+import HotelWhisperingWinds from "../images/HotelWhisperingWinds.webp";
+import HomesteadVillas from "../images/HomesteadVillas.webp";
+import ForestVille from "../images/ForestVille.webp";
+import Daleside from "../images/Daleside.webp";
+import BirdsView from "../images/BirdsView.webp";
+import AshwiniKhad from "../images/AshwiniKhad.webp";
+import AshwiniKhadWaterfall from "../images/AshwiniKhadWaterfall.webp";
+import CRI from "../images/CRI.webp";
+import KarolHill from "../images/KarolHill.webp";
+import MohanMeakin from "../images/MohanMeakin.webp";
+import NazaraPool from "../images/NazaraPool.webp";
+import TimerTrail from "../images/TimerTrail.webp";
+import VikasMushroomFarm from "../images/VikasMushroomFarm.webp";
+import ShivDhank from "../images/ShivDhank.webp";
+import CafeMantra from "../images/CafeMantra.webp";
+import CafeRudra from "../images/CafeRudra.webp";
+import CafeShubhmita from "../images/CafeShubhmita.webp";
+import OldTown from "../images/OldTown.webp";
+import Wangyal from "../images/Wangyal.webp";
+import BabaBalakNath from "../images/BabaBalakNath.webp";
+import GurudwaraGarkhal from "../images/GurudwaraGarkhal.webp";
+import ShirdiSaiBaba from "../images/ShirdiSaiBaba.webp";
+import NahariTemple from "../images/NahariTemple.webp";
+import Ambulance from "../images/Ambulance.webp";
+import CyberSecurity from "../images/CyberSecurity.webp";
+import ChildHelpline from "../images/ChildHelpline.webp";
+import DisasterManagement from "../images/DisasterManagement.webp";
+import Emergency from "../images/Emergency.webp";
+import WomenHelpline from "../images/WomenHelpline.webp";
 import Rating from "./Rating";
 import "../css/lookingForDetails.css";
 
@@ -119,6 +119,7 @@ const LookingForDetails = ({ content }) => {
                 : null
             }
             alt="heritage-market-img"
+            loading="lazy"
           />
         </div>
         <div className="content">
@@ -129,7 +130,7 @@ const LookingForDetails = ({ content }) => {
           </h1>
           <p>{content.placeDetails}</p>
           <Rating content={content} />
-          <span>{content.reference}</span>
+          <span className="reference_span">{content.reference}</span>
         </div>
       </div>
     </>

@@ -7,14 +7,12 @@ import "../css/homepage.css";
 
 const Homepage = () => {
   return (
-    <>
       <main>
         <SectionOne />
         <SectionTwo />
         <SectionThree />
         <SectionFour />
       </main>
-    </>
   );
 };
 

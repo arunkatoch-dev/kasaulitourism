@@ -9,7 +9,7 @@ const Card = ({ content }) => {
         <div className="card">
           <Link to={content[0].url} className="cards-Link">
             <div className="image-Container">
-              <img src={content[0].img} alt="" />
+              <img src={content[0].img} alt="thubmnail" loading="lazy" />
             </div>
             <div className="place-Details-Container">
               <h3>{content[0].placeName}</h3>
@@ -20,7 +20,7 @@ const Card = ({ content }) => {
         <div className="card">
           <Link to={content[1].url} className="cards-Link">
             <div className="image-Container">
-              <img src={content[1].img} alt="" />
+              <img src={content[1].img} alt="thubmnail" loading="lazy" />
             </div>
             <div className="place-Details-Container">
               <h3>{content[1].placeName}</h3>
@@ -31,7 +31,7 @@ const Card = ({ content }) => {
         <div className="card">
           <Link to={content[2].url} className="cards-Link">
             <div className="image-Container">
-              <img src={content[2].img} alt="" />
+              <img src={content[2].img} alt="thumbnail" loading="lazy" />
             </div>
             <div className="place-Details-Container">
               <h3>{content[2].placeName}</h3>

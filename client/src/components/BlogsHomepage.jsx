@@ -23,7 +23,7 @@ const BlogsHomepage = () => {
     <>
       <section className="blogs-Section">
         <div className="thumbnail">
-          <img src={BlogsMainThumbnail} alt="blogs-thumbnail" />
+          <img src={BlogsMainThumbnail} alt="blogs-thumbnail"  loading="lazy" />
         </div>
         <div className="blogs-Container">
           <div className="blogs-Main-Heading">

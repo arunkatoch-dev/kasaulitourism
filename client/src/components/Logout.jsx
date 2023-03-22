@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Cookie from "js-cookie";
 import { Link, useNavigate } from "react-router-dom";
 import { BiUserCircle } from "react-icons/bi";
-import menu from "../images/menu.png";
+import menu from "../images/menu.webp";
 import "../css/navbar.css";
 
 const Logout = ({setShowHideNav, setMenuBtn}) => {

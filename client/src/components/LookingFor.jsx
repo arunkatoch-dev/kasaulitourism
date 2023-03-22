@@ -2,7 +2,7 @@ import React from "react";
 import PlacesDetails from "../content/PlacesDetails.js";
 import AccomodationDetails from "../content/AccomodationDetails.js";
 import LookingForDetails from "./LookingForDetails";
-import close from "../images/close.png";
+import close from "../images/close.webp";
 import "../css/lookingFor.css";
 import NearbyPlacesDetails from "../content/NearbyPlacesDetails.js";
 import FoodCornersDetails from "../content/FoodCornersDetails.js";
@@ -27,6 +27,7 @@ const LookingFor = ({
             src={close}
             alt="close-Btn"
             className="closeBtn"
+            loading="lazy"
             onClick={closeDetails}
           />
           {showContent === lookingForHeadings.heading1

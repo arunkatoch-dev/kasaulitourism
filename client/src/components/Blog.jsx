@@ -1,5 +1,5 @@
 import React from "react";
-import close from "../images/close.png";
+import close from "../images/close.webp";
 import "../css/blog.css";
 
 const Blog = ({
@@ -13,6 +13,7 @@ const Blog = ({
         <img
           src={close}
           alt="close-blog-btn"
+          loading="lazy"
           className="close-Blog-Btn"
           onClick={closeBlog}
         />
@@ -20,7 +21,7 @@ const Blog = ({
           <h1>{blog[0]}</h1>
           <p>{blog[1]}</p>
           <div className="img-Container">
-            <img src={blog[2]} alt="blog-Image" />
+            <img src={blog[2]} alt="blog-thumbnail" loading="lazy" />
           </div>
           <p>{blog[3]}</p>
           <p>{blog[4]}</p>

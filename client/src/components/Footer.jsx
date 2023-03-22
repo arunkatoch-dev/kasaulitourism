@@ -141,7 +141,7 @@ const Footer = () => {
       <div className="developerDetails">
         <h4>Developed by Arun Katoch</h4>
         <p>
-          arunkatoch955@gmail.com <span>Last Updated On: [25|02|2023]</span>
+          arunkatoch955@gmail.com <span>Last Updated On: [23|03|2023]</span>
         </p>
       </div>
     </footer>

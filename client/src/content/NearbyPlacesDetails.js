@@ -1,12 +1,12 @@
-import AshwiniKhad from "../images/AshwiniKhad.PNG";
-import AshwiniKhadWaterfall from "../images/AshwiniKhadWaterfall.PNG";
-import CRI from "../images/CRI.PNG";
-import KarolHill from "../images/KarolHill.PNG";
-import MohanMeakin from "../images/MohanMeakin.PNG";
-import NazaraPool from "../images/NazaraPool.PNG";
-import TimerTrail from "../images/TimerTrail.PNG";
-import VikasMushroomFarm from "../images/VikasMushroomFarm.PNG";
-import ShivDhank from "../images/ShivDhank.png";
+import AshwiniKhad from "../images/AshwiniKhad.webp";
+import AshwiniKhadWaterfall from "../images/AshwiniKhadWaterfall.webp";
+import CRI from "../images/CRI.webp";
+import KarolHill from "../images/KarolHill.webp";
+import MohanMeakin from "../images/MohanMeakin.webp";
+import NazaraPool from "../images/NazaraPool.webp";
+import TimerTrail from "../images/TimerTrail.webp";
+import VikasMushroomFarm from "../images/VikasMushroomFarm.webp";
+import ShivDhank from "../images/ShivDhank.webp";
 
 const NearbyPlacesDetails = [
   {

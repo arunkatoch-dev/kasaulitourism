@@ -1,6 +1,6 @@
-import Chail from "../images/Chail.PNG";
-import Shimla from "../images/Shimla.PNG";
-import Kufri from "../images/Kufri.PNG";
+import Chail from "../images/Chail.webp";
+import Shimla from "../images/Shimla.webp";
+import Kufri from "../images/Kufri.webp";
 const Card1 = [
   {
     img: Chail,

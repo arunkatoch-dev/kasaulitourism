@@ -106,6 +106,10 @@
     gap: 1rem;
     height: 50%;
   }
+  .touristAttractions-Container .content .reference_span{
+    display: none;
+  }
+  
 }
 @media (max-width: 300px) {
   .touristAttractions-Container .content h1 {

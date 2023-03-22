@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
 import NavDiv from "./NavDiv";
-import menu from "../images/menu.png";
-import close from "../images/close.png";
-import hillsLogo from "../images/hillsLogo.png";
+import menu from "../images/menu.webp";
+import close from "../images/close.webp";
+import hillsLogo from "../images/hillsLogo.webp";
 const Navbar = () => {
   const [menuBtn, setMenuBtn] = useState(menu);
   const [showHideNav, setShowHideNav] = useState("hide-Nav-Div ");
@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <img
           src={menuBtn}
-          alt="menu image"
+          alt="menu icon"
           className="menu-btn"
           onClick={clickHandler}
         />
